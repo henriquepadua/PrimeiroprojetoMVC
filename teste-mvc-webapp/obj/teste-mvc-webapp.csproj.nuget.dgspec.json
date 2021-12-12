@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Henrique\\Documents\\Aprendendo c#\\Minha primeira aplicação\\teste-mvc-webapp\\teste-mvc-webapp.csproj": {}
+    "c:\\Users\\Henrique\\Documents\\Aprendendo c#\\Minha primeira aplicação\\teste-mvc-webapp\\teste-mvc-webapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Henrique\\Documents\\Aprendendo c#\\Minha primeira aplicação\\teste-mvc-webapp\\teste-mvc-webapp.csproj": {
+    "c:\\Users\\Henrique\\Documents\\Aprendendo c#\\Minha primeira aplicação\\teste-mvc-webapp\\teste-mvc-webapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Henrique\\Documents\\Aprendendo c#\\Minha primeira aplicação\\teste-mvc-webapp\\teste-mvc-webapp.csproj",
+        "projectUniqueName": "c:\\Users\\Henrique\\Documents\\Aprendendo c#\\Minha primeira aplicação\\teste-mvc-webapp\\teste-mvc-webapp.csproj",
         "projectName": "teste-mvc-webapp",
-        "projectPath": "C:\\Users\\Henrique\\Documents\\Aprendendo c#\\Minha primeira aplicação\\teste-mvc-webapp\\teste-mvc-webapp.csproj",
+        "projectPath": "c:\\Users\\Henrique\\Documents\\Aprendendo c#\\Minha primeira aplicação\\teste-mvc-webapp\\teste-mvc-webapp.csproj",
         "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Henrique\\Documents\\Aprendendo c#\\Minha primeira aplicação\\teste-mvc-webapp\\obj\\",
+        "outputPath": "c:\\Users\\Henrique\\Documents\\Aprendendo c#\\Minha primeira aplicação\\teste-mvc-webapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Henrique\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -34,6 +34,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Dapper.SimpleCRUD": {
+              "target": "Package",
+              "version": "[1.11.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

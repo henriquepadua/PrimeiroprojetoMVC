@@ -5,7 +5,11 @@
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Dapper >= 2.0.123",
+      "Dapper.SimpleCRUD >= 1.11.0",
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Henrique\\.nuget\\packages\\": {}
@@ -13,11 +17,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Henrique\\Documents\\Aprendendo c#\\Minha primeira aplicação\\teste-mvc-webapp\\teste-mvc-webapp.csproj",
+      "projectUniqueName": "c:\\Users\\Henrique\\Documents\\Aprendendo c#\\Minha primeira aplicação\\teste-mvc-webapp\\teste-mvc-webapp.csproj",
       "projectName": "teste-mvc-webapp",
-      "projectPath": "C:\\Users\\Henrique\\Documents\\Aprendendo c#\\Minha primeira aplicação\\teste-mvc-webapp\\teste-mvc-webapp.csproj",
+      "projectPath": "c:\\Users\\Henrique\\Documents\\Aprendendo c#\\Minha primeira aplicação\\teste-mvc-webapp\\teste-mvc-webapp.csproj",
       "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Henrique\\Documents\\Aprendendo c#\\Minha primeira aplicação\\teste-mvc-webapp\\obj\\",
+      "outputPath": "c:\\Users\\Henrique\\Documents\\Aprendendo c#\\Minha primeira aplicação\\teste-mvc-webapp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Henrique\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -40,6 +44,20 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.0.123, )"
+          },
+          "Dapper.SimpleCRUD": {
+            "target": "Package",
+            "version": "[1.11.0, )"
+          },
+          "Npgsql.EntityFrameworkCore.PostgreSQL": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -61,5 +79,34 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Não foi possível resolver 'Dapper (>= 2.0.123)' para 'net6.0'.",
+      "libraryId": "Dapper",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Não foi possível resolver 'Npgsql.EntityFrameworkCore.PostgreSQL (>= 6.0.0)' para 'net6.0'.",
+      "libraryId": "Npgsql.EntityFrameworkCore.PostgreSQL",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Não foi possível resolver 'Dapper.SimpleCRUD (>= 1.11.0)' para 'net6.0'.",
+      "libraryId": "Dapper.SimpleCRUD",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
